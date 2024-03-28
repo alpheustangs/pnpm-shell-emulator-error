@@ -2,8 +2,8 @@
     "private": true,
     "scripts": {
         "cd": "cd test",
-        "win": "cd test && dir",
-        "mac": "cd test && ls"
+        "win": "dir && cd test && dir",
+        "mac": "ls -la && cd test && ls -la"
     }
 
 }
